@@ -20,3 +20,7 @@ Simple Todo Application built with React, Redux. It is actually a classwork from
 -   React
 -   Redux
 -   Tailwind CSS
+
+## Live Demo
+
+https://ssg-redux-simple-todo.netlify.app/
