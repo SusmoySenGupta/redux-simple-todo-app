@@ -9,13 +9,13 @@ const reducer = (state = initialState, action) => {
 				case 'added': {
 					return {
 						...state,
-						color: [...state.color, color],
+						colors: [...state.colors, color],
 					};
 				}
 				case 'removed': {
 					return {
 						...state,
-						color: state.color.filter(
+						colors: state.colors.filter(
 							(existingColor) => existingColor !== color
 						),
 					};
